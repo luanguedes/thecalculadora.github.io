@@ -28,9 +28,12 @@ function op(operador){
 		if (FlagNewNum && PendingOp != "=");
 		else{
 			FlagNewNum = true;
-			if('*' == PendingOp){
-				Accum *= parseFloat(document.calc.visor.value);
+			if('+' == PendingOp){
+				Accum += parseFloat(document.calc.visor.value);
 			}
+				else if ('*' == PendingOp){
+					Accum *= parseFloat(document.calc.visor.value);
+				}
 			else
 				Accum = parseFloat(document.calc.visor.value);
 				document.calc.visor.value = Accum;
