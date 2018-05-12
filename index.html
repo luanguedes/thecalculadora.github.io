@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script language="JavaScript" src="calculadora.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script language="JavaScript" src="js/calculadora.js"></script>
 	</head>
 	<body>
-		<h1> The Calculadora </h1>
-		<form name= "calc">
-			<input type="text" name="visor"/> <br>
-			<input type="button" value="7" onclick="botao(value);" />
-			<input type="button" value="8" onclick="botao(value);" />
-			<input type="button" value="9" onclick="botao(value);" />
-			<input type="button" value="/" onclick="botao(value);" />
-			<br>
-			<input type="button" value="4" onclick="botao(value);" />
-			<input type="button" value="5" onclick="botao(value);" />
-			<input type="button" value="6" onclick="botao(value);" />
-			<input type="button" value="*" onclick="botao(value);" />
-			<br>
-			<input type="button" value="1" onclick="botao(value);" />
-			<input type="button" value="2" onclick="botao(value);" />
-			<input type="button" value="3" onclick="botao(value);" />
-			<input type="button" value="-" onclick="botao(value);" />
-			<br>
-			<input type="button" value="0" onclick="botao(value);" />
-			<input type="button" value="=" onclick="calcule();" />
-			<input type="button" value="C" onclick="reset();" />
-			<input type="button" value="+" onclick="botao(value);" />
+		<center>
+			<h1> The Calculadora </h1>
+			<form name= "calc">
+				<input class="texto" type="text" name="visor"/> <br>
+				<input type="button" value="7" onclick="botao(7);" />
+				<input type="button" value="8" onclick="botao(8);" />
+				<input type="button" value="9" onclick="botao(9);" />
+				<input type="button" value="/" onclick="op('/');" />
+				<br>
+				<input type="button" value="4" onclick="botao(4);" />
+				<input type="button" value="5" onclick="botao(5);" />
+				<input type="button" value="6" onclick="botao(6);" />
+				<input type="button" value="*" onclick="op('*');" />
+				<br>
+				<input type="button" value="1" onclick="botao(1);" />
+				<input type="button" value="2" onclick="botao(2);" />
+				<input type="button" value="3" onclick="botao(3);" />
+				<input type="button" value="-" onclick="op('-');" />
+				<br>
+				<input type="button" value="0" onclick="botao(0);" />
+				<input type="button" value="=" onclick="op('=');" />
+				<input type="button" value="C" onclick="reset();" />
+				<input type="button" value="+" onclick="op('+');" />
+			</form>
+		</center>
 	</body>
 </html>

@@ -1,1 +1,22 @@
-
+body{
+	background-color: #E0FFFF;
+}
+form{
+	border-radius: 15px 15px 15px;
+	background-color: black;
+	width: 200px;
+	height: 250px;
+	padding-top: 15px;
+}
+.texto{
+	background-color: #FFE4E1;
+	width: 170px;
+}
+input {
+	border-radius: 10px 10px 10px;
+	background-color: #FF69B4;
+	border: 2px solid #9400D3;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+}
