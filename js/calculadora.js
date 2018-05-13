@@ -31,8 +31,11 @@ function op(operador){
 			if('+' == PendingOp){
 				Accum += parseFloat(document.calc.visor.value);
 			}
-				else if ('*' == PendingOp){
-					Accum *= parseFloat(document.calc.visor.value);
+			else if ('-' == PendingOp){
+				Accum -= parseFloat(document.calc.visor.value);
+				}
+			else if ('*' == PendingOp){
+				Accum *= parseFloat(document.calc.visor.value);
 				}
 			else
 				Accum = parseFloat(document.calc.visor.value);
