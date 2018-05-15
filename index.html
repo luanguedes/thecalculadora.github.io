@@ -9,6 +9,7 @@
 			<h1> The Calculadora </h1>
 			<form name= "calc">
 				<input class="texto" type="text" name="visor"/> <br>
+				<input class = "ac "type="button" value="AC" onclick="reset();" /><br>
 				<input type="button" value="7" onclick="botao(7);" />
 				<input type="button" value="8" onclick="botao(8);" />
 				<input type="button" value="9" onclick="botao(9);" />
@@ -26,8 +27,12 @@
 				<br>
 				<input type="button" value="0" onclick="botao(0);" />
 				<input type="button" value="=" onclick="op('=');" />
-				<input type="button" value="C" onclick="reset();" />
+				<input type="button" value="." onclick="ponto('.');" />
 				<input type="button" value="+" onclick="op('+');" />
+				
+				
+
+
 			</form>
 		</center>
 	</body>

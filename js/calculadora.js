@@ -16,6 +16,21 @@ function botao(num)
 	}
 	
 }
+
+function ponto () {
+	var p = document.calc.visor.value;
+	if (FlagNewNum){
+		p = ".";
+		FlagNewNum = false; 
+	}
+	else {
+		if (p.indexOf(".") == -1)
+			p += ".";
+   		}
+		document.calc.visor.value = p;
+
+}
+
 function reset()
 {	
 }
