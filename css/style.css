@@ -15,17 +15,18 @@ body{
 	margin-right: 120px;
 	margin-bottom: 10px;
 	background-color: #ADFF2F;
-	border-color: red;
+	border-color: purple;
+	color: purple;
 }
 .ac:hover{
 	background-color: #32CD32;
-	border-color: red;
-	color: red;
+	border-color: white;
+	color: white;
 }
 form{
 	border-radius: 40px 40px 40px;
-	border: 15px solid red;
-	border-style: groove;
+	border: 15px solid purple;
+	border-style: ridge;
 	background-color: black;
 	width: 260px;
 	height: 400px;
