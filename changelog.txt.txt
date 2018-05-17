@@ -1,0 +1,34 @@
+V1.0.0
+Commits on May 16, 2018
+Merge branch 'develop'
+
+Commits on May 15, 2018
+commit CSS-10
+commit CSS 9
+JS 2
+HTML 2/ JS 2
+
+Commits on May 14, 2018
+CSS - 8
+commit ccs7
+CSS 6/HTML/JS
+CSS 5
+
+Commits on May 13, 2018
+commit CSS - 4
+commit subtração
+commit CSS - 3
+commit CSS - 2
+
+Commits on May 12, 2018
+adicao commit
+commit multiplicacao / inicio CSS
+commit multiplicação / inicio CSS
+Update README.md
+
+Commits on May 11, 2018
+segundo commit
+primeiro commit
+
+
+
